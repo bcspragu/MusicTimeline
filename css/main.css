@@ -1,0 +1,41 @@
+html, body {
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.section {
+  height: 100%;
+  width: 20%;
+  float: left;
+  opacity: 0.75;
+  background-size: cover;
+  background-position: center center;
+}
+
+.section:hover {
+  opacity: 1;
+}
+
+.c1 {
+  background-image: url(../img/africa.png);
+}
+
+.c2 {
+  background-image: url(../img/martha.png);
+}
+
+.c3 {
+  background-image: url(../img/daft.png);
+}
+
+.c4 {
+  background-image: url(../img/jab.png);
+}
+
+.c5 {
+  background-image: url(../img/banksy.png);
+}
